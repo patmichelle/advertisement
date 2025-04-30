@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header{
+    display:flex;
+    top:0;
+    width:99%;
+    background-color: rgb(247, 220, 162);
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    color: rgb(206, 99, 37);
+    padding: 10px;
+}
+
+div.logo:hover{
+    transition: 0.6s;
+    scale: 105%;
+}
+
+nav a{
+    font-family: agbalumo;
+    font-size:23px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color:rgb(236, 78, 50);
+    float:none;
+}
+
+nav a:hover{
+    transition: 0.6s;
+    background-color: rgb(248, 205, 126);
+    box-shadow: 0px 0px 5px rgb(211, 143, 88);
+    scale: 105%;
+}
+
+section.home{
+    height: 600px;
+    background: url("my\ home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+section.home div{
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: auto;
+    width:70%;
+    padding: 20px;
+}
+
+section.home .welcome{
+    font-size: 80px;
+    text-align: center;
+    padding:10px;
+}
+
+section.home a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+
+section.home .des{
+    font-size: 18px;
+}
+
+section.home .order{
+    size: 30px;
+}
+
+section.about{
+    text-align: center;
+    background-color: rgb(253, 245, 168);
+    height: 600px;
+    padding-top: 80px;
+}
+
+section.about div{
+    color:rgb(187, 100, 59);
+    text-align: center;
+    margin:auto;
+    border-image-width: 10px;
+}
+
+section.about p{
+    margin-left: 303px;
+    margin-right: 303px;
+    font-size: 18px;
+}
+
+h3.abt{
+    font-family: Akaya Telivigala;
+    font-size: 40px;
+}
+
+section.product {
+    background:url("prdct.jpeg");
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-color: rgb(255, 238, 209);
+    border: 1px solid #ef6a53bc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(89, 49, 49, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card button {
+    background-color: rgb(127, 194, 194);
+}
+
+
+section.contact{
+    background-color: black;
+    height: auto;
+}
+
+section.contact .card{
+    margin:auto;
+    color: white;
+    text-align: center;
+    padding-top:100px;
+    width:400px;
+    font-family: Chicle;
+}
+
+section.contact .card .gambar{
+    scale: 100%;
+    width: 250px;
+}
+
+.card a{
+    color:rgb(222, 119, 109);
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+
+footer{
+    font-family: bytesized;
+    font-size:20px;
+    padding-top:15px;
+    background-color: rgb(236, 208, 146);
+    height: 40px;
+    text-align:center;
+    justify-content: space-between;
+    float:none;
+}
+
+footer div a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: rgb(206, 99, 37);
+}
